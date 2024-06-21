@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the lowerbet in lowercase.
+ * main - prints the alphabet in lowercase and UPPERCASE.
  *
  * Return: Always 0 (Success)
  */
