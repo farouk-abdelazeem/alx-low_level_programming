@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char digit = '1';
+char digit = 1;
 
-while (digit < '10')
+while (digit < 10)
 {
 putchar(digit);
 digit++;
