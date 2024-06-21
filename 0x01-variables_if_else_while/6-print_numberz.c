@@ -6,14 +6,12 @@
  */
 int main(void)
 {
-char digit = 1;
+int digit = 0;
 
-while (digit < 10)
+for (; digit < 10 ; digit++)
 {
-putchar(digit);
-digit++;
+putchar('0' + digit);
 }
 putchar('\n');
-
 	return (0);
 }
