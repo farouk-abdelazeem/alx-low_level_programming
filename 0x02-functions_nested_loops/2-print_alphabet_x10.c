@@ -8,7 +8,6 @@
  * Return: Always 0 (Success)
  */
 
-
 void print_alphabet_x10(void)
 {
 int times = 0;
@@ -21,7 +20,7 @@ while (alpha <= 'z')
 putchar(alpha);
 alpha++;
 }
-putchar('\n');
+putchar('\n'); /* This line ensures a newline at the end */
 times++;
 }
 }
