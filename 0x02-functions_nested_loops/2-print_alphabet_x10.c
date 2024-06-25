@@ -1,3 +1,8 @@
+
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 void print_alphabet_x10(void)
 {
 int times = 0;
