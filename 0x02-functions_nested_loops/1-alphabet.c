@@ -9,13 +9,12 @@
 
 void print_alphabet(void)
 {
-    char c = 'a';
+char alpha = 'a';
 
-    while (c <= 'z')
-    {
-        putchar(c);
-        c++;
-    }
-
-    putchar('\n');  /* This line ensures a newline at the end */ 
+while (alpha <= 'z')
+{
+putchar(alpha);
+alpha++;
+}
+putchar('\n');  /* This line ensures a newline at the end */
 }
