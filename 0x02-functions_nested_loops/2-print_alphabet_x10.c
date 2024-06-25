@@ -18,3 +18,4 @@ alpha++;
 putchar('\n');
 times++;
 }
+}
