@@ -4,18 +4,18 @@
 
 /**
  * print_alphabet - Entry point
- * Return:0
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
 {
-	char c = 'a';
+    char c = 'a';
 
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
+    while (c <= 'z')
+    {
+        putchar(c);
+        c++;
+    }
 
-	}
-	putchar('\n');
+    putchar('\n');  // This line ensures a newline at the end
 }
