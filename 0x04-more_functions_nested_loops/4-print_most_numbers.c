@@ -12,10 +12,11 @@ void print_most_numbers(void)
 		if (i == 2 || i == 4)
 		{
 			i++;
-		}else
+		} else
 		{
 			_putchar(i);
 			i++;
 		}
 	_putchar('\n');
 }
+
